@@ -1,0 +1,87 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>Bokeh Plot</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-0.13.0.min.css" type="text/css" />
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-widgets-0.13.0.min.css" type="text/css" />
+        <link rel="stylesheet" href="https://cdn.pydata.org/bokeh/release/bokeh-tables-0.13.0.min.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-0.13.0.min.js"></script>
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-widgets-0.13.0.min.js"></script>
+        <script type="text/javascript" src="https://cdn.pydata.org/bokeh/release/bokeh-tables-0.13.0.min.js"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            <div class="bk-root" id="f710a37f-c264-4c13-922e-1939280a7191"></div>
+          
+        
+      
+      
+        <script type="application/json" id="4f22e144-991f-446b-ab5a-448d10fdcf98">
+          {"e18961b9-477a-452e-b218-4549a9c9ec81":{"roots":{"references":[{"attributes":{"editor":{"id":"d22d1be0-a4c9-47a6-bbe7-c21d3e9100c3","type":"StringEditor"},"field":"Metric","formatter":{"id":"2279e943-c523-4d8c-b119-f0896d5402c0","type":"HTMLTemplateFormatter"},"title":"LW's 20 Most Important Metrics","width":205},"id":"318eacd7-1bec-46e9-b7f8-61b1cf3f329a","type":"TableColumn"},{"attributes":{"columns":[{"id":"927c30d2-3c87-49ae-8e07-cdfabf204d18","type":"TableColumn"},{"id":"9cdd8167-7fa3-409f-95bc-a9979a199de4","type":"TableColumn"}],"height":550,"index_position":null,"source":{"id":"b50646c0-f0fb-4447-a97a-926d565ff4ee","type":"ColumnDataSource"},"view":{"id":"532afa75-5459-4d47-8570-fc4596fcce62","type":"CDSView"},"width":255},"id":"c52ec732-2113-4b3a-a79f-5681eea5cb51","type":"DataTable"},{"attributes":{},"id":"77c014c8-9af4-4431-b5f2-300789d54232","type":"UnionRenderers"},{"attributes":{"editor":{"id":"62bc5661-9dd9-4911-a379-26ac6f1ae2be","type":"StringEditor"},"field":"Metric","formatter":{"id":"2279e943-c523-4d8c-b119-f0896d5402c0","type":"HTMLTemplateFormatter"},"title":"Player 1's 20 Best Metrics","width":205},"id":"927c30d2-3c87-49ae-8e07-cdfabf204d18","type":"TableColumn"},{"attributes":{"editor":{"id":"6f091f3a-b56b-4a61-bfb9-18607db59911","type":"StringEditor"},"field":"Player1Actual","formatter":{"id":"a96ccf95-0c9d-47d5-a19b-8392dcaaa0f3","type":"HTMLTemplateFormatter"},"title":"Player 1","width":50},"id":"9cdd8167-7fa3-409f-95bc-a9979a199de4","type":"TableColumn"},{"attributes":{"source":{"id":"7d5602e7-ec02-4a65-bc30-16b243664e5b","type":"ColumnDataSource"}},"id":"8e4e01b6-70f1-4758-b2e5-b12d5a0d98e7","type":"CDSView"},{"attributes":{"callback":null,"data":{"Metric":["Goals","Accurate Passes","Lost Balls In Own Half","Lost Balls","Interceptions In Oppo Half","Aerial Win %","Successful Aerial Challenges","Assists","Challenge Win %","Accurate Extra Attacking &amp; Key Passes","Extra Attacking &amp; Key Passes","Pass %","Ball Recoveries In Oppo Half","Passes","Scoring Contribution","Scoring Attacks Played In","Fouls Suffered","Ball Recoveries","Grave Mistakes","Fouls"],"Player1Actual":{"__ndarray__":"7FG4HoXr0T97FK5H4Xo+QOxRuB6F6/k/XI/C9ShcHEAAAAAAAADwP8P1KFyPwtU/exSuR+F69D+4HoXrUbiuPwAAAAAAAOA/exSuR+F69D+PwvUoXI8AQOxRuB6F6+k/MzMzMzMz/z97FK5H4bpCQB+F61G4HtU/cT0K16Nw5T8zMzMzMzP3P8P1KFyPwhRAKVyPwvUozD97FK5H4XrsPw==","dtype":"float64","shape":[20]},"Player1Percentile":{"__ndarray__":"Ljd5DtDuUUCXmzwHaHdVQOzHmWLp2jpAi5L6caZYU0BqUVI/zhRDQOgA7Y5GNk5AYvxLxOUmTUA1n/BCglAxQBY4Zp0WJVdAW4Fj1mlRVECaYunaChxSQGeKpWsrcFZASurHmWLpWEAY/xJxuclTQDARl5s8B0hANZ/wQoJQUUDNJ7yQIFRNQErqx5li6VhA/F41n/BCNkDfvlfNJ7xIQA==","dtype":"float64","shape":[20]},"Player1Percentile2":{"__ndarray__":"zczMzMzsUUCamZmZmXlVQGZmZmZm5jpAmpmZmZlZU0CamZmZmRlDQDMzMzMzM05AZmZmZmYmTUDNzMzMzEwxQGZmZmZmJldAMzMzMzNTVECamZmZmRlSQDMzMzMzc1ZAZmZmZmbmWEDNzMzMzMxTQM3MzMzMDEhAMzMzMzNTUUCamZmZmVlNQGZmZmZm5lhAzczMzMxMNkAAAAAAAMBIQA==","dtype":"float64","shape":[20]},"Player1PercentileHex":["#85FF00","#3BFF00","#FF8D00","#67FF00","#FFC800","#C0FF00","#CCFF00","#FF5B00","#17FF00","#53FF00","#81FF00","#26FF00","#00FF00","#5EFF00","#FFFC00","#92FF00","#CAFF00","#00FF00","#FF7500","#FAFF00"],"Weights":{"__ndarray__":"PL1SliGOpT88vVKWIY6lPzy9UpYhjqU/PL1SliGOpT88vVKWIY6lPzy9UpYhjqU/PL1SliGOpT88vVKWIY6lPzy9UpYhjqU/PL1SliGOpT88vVKWIY6lPzy9UpYhjqU/PL1SliGOpT88vVKWIY6lPzy9UpYhjqU/PL1SliGOpT88vVKWIY6lP3Noke18P6U/GQRWDi2ynT82zTtO0ZGcPw==","dtype":"float64","shape":[20]},"Weights2":{"__ndarray__":"zczMzMzMEEDNzMzMzMwQQM3MzMzMzBBAzczMzMzMEEDNzMzMzMwQQM3MzMzMzBBAzczMzMzMEEDNzMzMzMwQQM3MzMzMzBBAzczMzMzMEEDNzMzMzMwQQM3MzMzMzBBAzczMzMzMEEDNzMzMzMwQQM3MzMzMzBBAzczMzMzMEEDNzMzMzMwQQGZmZmZmZhBAMzMzMzMzB0BmZmZmZmYGQA==","dtype":"float64","shape":[20]},"WeightsHex":["rgba(89,255,0,0.5)","rgba(89,255,0,0.5)","rgba(89,255,0,0.5)","rgba(89,255,0,0.5)","rgba(89,255,0,0.5)","rgba(89,255,0,0.5)","rgba(89,255,0,0.5)","rgba(89,255,0,0.5)","rgba(89,255,0,0.5)","rgba(89,255,0,0.5)","rgba(89,255,0,0.5)","rgba(89,255,0,0.5)","rgba(89,255,0,0.5)","rgba(89,255,0,0.5)","rgba(89,255,0,0.5)","rgba(89,255,0,0.5)","rgba(89,255,0,0.5)","rgba(95,255,0,0.5)","rgba(220,255,0,0.5)","rgba(231,255,0,0.5)"],"index":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]},"selected":{"id":"a9f0e679-c895-462a-bc23-b7f9e7db15be","type":"Selection"},"selection_policy":{"id":"77c014c8-9af4-4431-b5f2-300789d54232","type":"UnionRenderers"}},"id":"7d5602e7-ec02-4a65-bc30-16b243664e5b","type":"ColumnDataSource"},{"attributes":{"template":"\n    &lt;div style=\"background:&lt;%=Player1PercentileHex%&gt;;text-align:center\";&gt;\n    &lt;span href=\"#\" data-toggle=\"tooltip\" title=\"Metric Percentile: &lt;%= Player1Percentile2 %&gt;\"&gt;&lt;%= value %&gt;&lt;/span&gt;\n    &lt;/div&gt;\n    "},"id":"a96ccf95-0c9d-47d5-a19b-8392dcaaa0f3","type":"HTMLTemplateFormatter"},{"attributes":{},"id":"79235e44-597b-401d-b819-3942fc3e0161","type":"UnionRenderers"},{"attributes":{"template":"\n    &lt;div style=\"background:&lt;%=WeightsHex%&gt;;text-align:left\";&gt;\n    &lt;span href=\"#\" data-toggle=\"tooltip\" title=\"Weighting: &lt;%= Weights2 %&gt;%\"&gt;&lt;%= value %&gt;&lt;/span&gt;\n    &lt;/div&gt;\n    "},"id":"2279e943-c523-4d8c-b119-f0896d5402c0","type":"HTMLTemplateFormatter"},{"attributes":{},"id":"e08c61fc-e9e8-474b-9aa6-d9a343efbeea","type":"StringEditor"},{"attributes":{"columns":[{"id":"318eacd7-1bec-46e9-b7f8-61b1cf3f329a","type":"TableColumn"},{"id":"e706cb76-4f33-451e-a4b0-8e3252fd80b1","type":"TableColumn"}],"height":550,"index_position":null,"source":{"id":"7d5602e7-ec02-4a65-bc30-16b243664e5b","type":"ColumnDataSource"},"view":{"id":"8e4e01b6-70f1-4758-b2e5-b12d5a0d98e7","type":"CDSView"},"width":255},"id":"ae6dec15-e56d-4989-858a-3cbfeef187f1","type":"DataTable"},{"attributes":{"editor":{"id":"e08c61fc-e9e8-474b-9aa6-d9a343efbeea","type":"StringEditor"},"field":"Player1Actual","formatter":{"id":"a96ccf95-0c9d-47d5-a19b-8392dcaaa0f3","type":"HTMLTemplateFormatter"},"title":"Player 1","width":50},"id":"e706cb76-4f33-451e-a4b0-8e3252fd80b1","type":"TableColumn"},{"attributes":{},"id":"d22d1be0-a4c9-47a6-bbe7-c21d3e9100c3","type":"StringEditor"},{"attributes":{},"id":"62bc5661-9dd9-4911-a379-26ac6f1ae2be","type":"StringEditor"},{"attributes":{},"id":"e2c4a6ef-1f95-4c0c-93b1-6b4a2d4a5340","type":"Selection"},{"attributes":{"callback":null,"data":{"Metric":["Ball Recoveries In Oppo Half","Ball Recoveries","Successful Tackles","Successful Defensive Challenges","Picking Up Free Balls","Tackles","Successful Dribble %","Challenge Win %","Defensive Challenges","Defensive Challenge Win %","Pass %","Picking Up Free Balls In Oppo Half","Attacking Challenge Win %","Accurate Passes","Challenges Won","Tackle Win %","Accurate Extra Attacking &amp; Key Passes","Crossing %","Passes","Yellow Cards"],"Player1Actual":{"__ndarray__":"MzMzMzMz/z/D9Shcj8IUQFK4HoXrUQZAMzMzMzMzEUApXI/C9SgeQFK4HoXrURJAexSuR+F65D8AAAAAAADgPxSuR+F6FCBA9ihcj8L14D/sUbgehevpP2ZmZmZmZg5AFK5H4XoU3j97FK5H4Xo+QFK4HoXrUSNAhetRuB6F4z97FK5H4Xr0Px+F61G4HtU/exSuR+G6QkC4HoXrUbiuPw==","dtype":"float64","shape":[20]},"Player1Percentile":{"__ndarray__":"SurHmWLpWEBK6seZYulYQAdodzSyYVhAMBGXmzwHWEDE5SbPAdpXQKOkfpwplldAzE2eA7Q7V0AWOGadFiVXQBY4Zp0WJVdAPuGFBKHKVkBniqVrK3BWQLF0bQWOWVZATbF0bQWOVUCXmzwHaHdVQJebPAdod1VAwERcbvIcVUBbgWPWaVFUQIQqgz309lNAGP8ScbnJU0D3vWo+4YVTQA==","dtype":"float64","shape":[20]},"Player1Percentile2":{"__ndarray__":"ZmZmZmbmWEBmZmZmZuZYQAAAAAAAYFhAZmZmZmYGWECamZmZmdlXQDMzMzMzk1dAmpmZmZk5V0BmZmZmZiZXQGZmZmZmJldAzczMzMzMVkAzMzMzM3NWQJqZmZmZWVZAzczMzMyMVUCamZmZmXlVQJqZmZmZeVVAAAAAAAAgVUAzMzMzM1NUQJqZmZmZ+VNAzczMzMzMU0BmZmZmZoZTQA==","dtype":"float64","shape":[20]},"Player1PercentileHex":["#00FF00","#00FF00","#00FF00","#05FF00","#08FF00","#0EFF00","#15FF00","#17FF00","#17FF00","#1FFF00","#26FF00","#28FF00","#39FF00","#3BFF00","#3BFF00","#42FF00","#53FF00","#5AFF00","#5EFF00","#63FF00"],"Weights":{"__ndarray__":"PL1SliGOpT9zaJHtfD+lPy1DHOviNko/LUMc6+I2Sj9N845TdCSXPy1DHOviNko/eekmMQisjD88vVKWIY6lPzJVMCqpE5A/LUMc6+I2Sj88vVKWIY6lP8e6uI0G8FY/RiV1ApoIez88vVKWIY6lPy1DHOviNko/INJvXwfOmT88vVKWIY6lPxsv3SQGgZU/PL1SliGOpT+Sy39Iv31NPw==","dtype":"float64","shape":[20]},"Weights2":{"__ndarray__":"zczMzMzMEEBmZmZmZmYQQJqZmZmZmbk/mpmZmZmZuT9mZmZmZmYCQJqZmZmZmbk/ZmZmZmZm9j/NzMzMzMwQQJqZmZmZmfk/mpmZmZmZuT/NzMzMzMwQQJqZmZmZmbk/ZmZmZmZm5j/NzMzMzMwQQJqZmZmZmbk/AAAAAAAABEDNzMzMzMwQQM3MzMzMzABAzczMzMzMEECamZmZmZm5Pw==","dtype":"float64","shape":[20]},"WeightsHex":["rgba(89,255,0,0.5)","rgba(95,255,0,0.5)","rgba(255,8,0,0.5)","rgba(255,8,0,0.5)","rgba(255,226,0,0.5)","rgba(255,8,0,0.5)","rgba(255,140,0,0.5)","rgba(89,255,0,0.5)","rgba(255,157,0,0.5)","rgba(255,8,0,0.5)","rgba(89,255,0,0.5)","rgba(255,14,0,0.5)","rgba(255,66,0,0.5)","rgba(89,255,0,0.5)","rgba(255,8,0,0.5)","rgba(255,252,0,0.5)","rgba(89,255,0,0.5)","rgba(255,210,0,0.5)","rgba(89,255,0,0.5)","rgba(255,9,0,0.5)"],"index":[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]},"selected":{"id":"e2c4a6ef-1f95-4c0c-93b1-6b4a2d4a5340","type":"Selection"},"selection_policy":{"id":"79235e44-597b-401d-b819-3942fc3e0161","type":"UnionRenderers"}},"id":"b50646c0-f0fb-4447-a97a-926d565ff4ee","type":"ColumnDataSource"},{"attributes":{"children":[{"id":"ae6dec15-e56d-4989-858a-3cbfeef187f1","type":"DataTable"}],"height":550,"width":255},"id":"59ab6ca3-f74b-441b-a4d3-aa02bd5108fc","type":"WidgetBox"},{"attributes":{"source":{"id":"b50646c0-f0fb-4447-a97a-926d565ff4ee","type":"ColumnDataSource"}},"id":"532afa75-5459-4d47-8570-fc4596fcce62","type":"CDSView"},{"attributes":{},"id":"6f091f3a-b56b-4a61-bfb9-18607db59911","type":"StringEditor"},{"attributes":{"children":[{"id":"c52ec732-2113-4b3a-a79f-5681eea5cb51","type":"DataTable"}],"height":550,"width":255},"id":"420862b5-e5fe-4625-bd6b-0b705b5fefd8","type":"WidgetBox"},{"attributes":{},"id":"a9f0e679-c895-462a-bc23-b7f9e7db15be","type":"Selection"},{"attributes":{"children":[{"id":"5c7dacbf-3643-46b1-b95c-e578f0ceffaf","type":"WidgetBox"},{"id":"bff24976-1c79-45ed-88f3-bedfbd245d0a","type":"Row"}]},"id":"9e2fb1e1-3755-497a-86ec-94cdb25b1a66","type":"Column"},{"attributes":{"height":60,"style":{"font-family":"Segoe UI","text-align":"center"},"text":"&lt;b&gt; Position: LW &lt;/b&gt;&lt;br&gt;\n                            &lt;b&gt;Player 1&lt;/b&gt; Joe Aribo @ Charlton in 18/19 in L1 - 1612 mins = 17.9 90s - 42.5 ODIPs&lt;br&gt;","width":510},"id":"4a0a8b10-7b89-46e6-8aa3-bb36ff0190ac","type":"Div"},{"attributes":{"children":[{"id":"59ab6ca3-f74b-441b-a4d3-aa02bd5108fc","type":"WidgetBox"},{"id":"420862b5-e5fe-4625-bd6b-0b705b5fefd8","type":"WidgetBox"}]},"id":"bff24976-1c79-45ed-88f3-bedfbd245d0a","type":"Row"},{"attributes":{"children":[{"id":"4a0a8b10-7b89-46e6-8aa3-bb36ff0190ac","type":"Div"}],"height":60,"width":510},"id":"5c7dacbf-3643-46b1-b95c-e578f0ceffaf","type":"WidgetBox"}],"root_ids":["9e2fb1e1-3755-497a-86ec-94cdb25b1a66"]},"title":"Bokeh Application","version":"0.13.0"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('4f22e144-991f-446b-ab5a-448d10fdcf98').textContent;
+                  var render_items = [{"docid":"e18961b9-477a-452e-b218-4549a9c9ec81","roots":{"9e2fb1e1-3755-497a-86ec-94cdb25b1a66":"f710a37f-c264-4c13-922e-1939280a7191"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        embed_document(root);
+                        clearInterval(timer);
+                      }
+                      attempts++;
+                      if (attempts > 100) {
+                        console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing")
+                        clearInterval(timer);
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
